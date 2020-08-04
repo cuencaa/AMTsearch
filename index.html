@@ -1,0 +1,82 @@
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Collborative Search</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+    
+<script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+<crowd-form>
+<p><strong>Task: </strong>What is Covid-19?</p>
+
+
+<!--搜索框-->
+<div class="search">
+    
+   <div class="sfbg">
+        <div class="sfbgg">
+            <div id="icon-block">
+                <div id="icon"><a href="#"><img src="./img/googlelogo.svg"></a></div>
+            </div>
+            <form action="#" id="f" method="get">
+                <div class="fkbx">
+                    <!--<div id="fkbx-text">Search Google or tyle a URL</div>-->
+                    <input id="serchId" placeholder="Search Google or tyle a URL" name="keywords">
+                    <div id="delete"><a href="#"><img src="./img/delete.svg"></a></div>
+                    <!--<div id="searchbutton"><crowd-button id="button1">Search</crowd-button></div>-->
+                </div>
+            </form>
+        </div>
+    </div>
+<!--结果列表-->       
+    <div class="container">
+        <div class="searchList">
+            <table id="searchList">
+                <!--<tr>
+                    <td>
+                        <a href="">
+                        <p class="title">正标题</p>
+                        <p class="className"><span>所属分类</span><em class="date">2019-01-01</em></p>
+                        <p class="detail">搜索详细信息展示，要考虑没有的情况下，不显示只显示标题</p>
+                        </a>
+                    </td>
+                </tr>-->
+            </table>
+            <div class="pageRow">
+                <div id="pageination"></div>
+            </div>
+        </div>
+    </div>
+</div>    
+       
+    
+<p>Generate an answer based on the search results</p>
+<crowd-text-area name="transcription" rows="4"></crowd-text-area>
+    
+<short-instructions>
+    Your custom quick instructions and examples
+</short-instructions>
+
+<full-instructions>
+    Your custom detailed instracutions and more examples
+</full-instructions>
+    
+</crowd-form>
+
+<script>
+  [
+    button1,
+  ].forEach(function(button) {
+    button.addEventListener('click', function() {
+      document.querySelector('crowd-form').submit();
+    });
+  });
+    
+    function enterkeyword(){
+       document.querySelector('crowd-form').submit();          
+    }
+    
+</script>
