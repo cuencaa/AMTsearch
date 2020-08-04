@@ -1,8 +1,8 @@
 
     //鼠标点击的时候搜索
     function searchAction() {
-        var serchId=$('#serchId').val();
-        var rexq = new RegExp(serchId,"igm");
+        var serchId=$('#serchId').val(); //获取输入的内容作为高亮关键词
+        var rexq = new RegExp(serchId,"igm"); //i 忽略大小写 g 全局 m 多行
         
         $.ajax({
             type:"post",
@@ -15,10 +15,10 @@
                         var url=obj.url_formatted;//搜索结果的url
                         url = url.replace(rexq,"<font color='#dd4b39'>"+serchId+"</font>");
                         
-                        var title=obj.title_formatted;//结果标题
+                        var title=obj.title_formatted;//结果的标题
                         title = title.replace(rexq,"<font color='#dd4b39'>"+serchId+"</font>");
                     
-                        var abstract=obj.snippet_formatted;//结果节选
+                        var abstract=obj.snippet_formatted;//结果的节选
                         abstract = abstract.replace(rexq,"<font color='#dd4b39'>"+serchId+"</font>");
                         
                         var lielem='<tr>\n' +
