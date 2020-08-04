@@ -1,0 +1,227 @@
+<style>
+    #resulturl{
+        font-size: 14px;
+        padding-top: 1px;
+        line-height: 1.3;
+        color: #202124;
+        font-style: normal;
+        font-family: arial,sans-serif;
+    }
+#resulttitle{
+        font-size: 20px;
+        line-height: 1.3;
+        padding-top: 9px;
+        display: inline-block;
+        margin-bottom: 3px;
+    }
+#resultabstract{
+        line-height: 1.58;
+        word-wrap: break-word;
+        color: #4d5156;
+        font-size: 14px;
+        font-family: arial,sans-serif;
+        text-align: left;
+        font-weight: normal;
+    }
+#searchform{
+        width:690px;/*自适应*/
+        display: inline-block;
+        background-color: #fff;
+        border: 1px solid rgb(185,185,185);/*它的输入框是一个div，并不是一个实际的输入框*/
+        border-radius: 22px;
+        font: 18px arial,sans-serif;
+        height: 46px;
+        line-height: 36px;
+        position: relative;
+    }
+#searchcontent{
+        float:left;
+        width: 500px;
+        background: transparent;
+        border:none;
+        border-color: red;
+        bottom: 0;
+        box-sizing: border-box;
+        left: 20px;
+        margin: 0;
+        position: absolute;
+        top:-15px;
+    }
+#searchbutton{
+        float:right;
+    }
+    .underline{
+        color: blue;
+    }
+#searchform{
+    position: absolute;
+    top: 20px;
+    min-width: 1261px;
+    z-index: 127;
+    width: 100%;
+}
+#icon-block{
+    float: left;
+    width: 150px;
+}
+#icon{
+    float: left;
+    position: absolute;
+    top:10px;
+}
+.sfbg{  
+    height: 69px;
+    left: 0;
+    width: 100%;
+}
+.sfbgg{
+    height: 65px;
+    position: absolute;
+    left: 20px;
+}
+form{
+    height: 30px;
+    float: right;
+}
+.fkbx{
+    width:690px;/*自适应*/
+    display: inline-block;
+    background-color: #fff;
+    border: 1px solid rgb(185,185,185);/*它的输入框是一个div，并不是一个实际的输入框*/
+    border-radius: 22px;
+    font: 18px arial,sans-serif;
+    height: 46px;
+    line-height: 36px;
+    position: relative;
+}
+#query{
+        border: none;
+    }
+#fkbx-text{
+    bottom: 0;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    height: 44px;
+    left: 20px;
+    line-height: 44px;
+    margin: auto 0;
+    overflow: hidden;
+    position: absolute;
+    right: 44px;
+    text-align: initial;
+    text-overflow: ellipsis;
+    top: 0;
+    user-select: none;
+    vertical-align: middle;
+    visibility: inherit;
+    white-space: nowrap;
+}
+.fkbx input{
+    background: transparent;
+    border:none;
+    border-color: red;
+    bottom: 0;
+    box-sizing: border-box;
+    left: 20px;
+    margin: 0;
+    position: absolute;
+    top:2px;
+    width: 500px;
+}
+ .searcher{
+     background: rgba(255, 255, 255, 0);
+     position: fixed;
+     z-index: 999;
+     width: 100%;
+     height: 6rem;
+     text-align: center;
+     font-size: 1.6rem;
+ }
+#delete img{
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    left: 525px;
+    top:18px;
+}
+.sfbgg img{
+    height: 30px;
+    width: 92px;
+}
+ .searcher-main {
+     background: #F4F4F4;
+     position: absolute;
+     left: 50%;
+     top: 1.2rem;
+     margin-left: -45%;
+     border-radius: 1.6rem;
+     width: 80%;
+     height: 3rem;
+     line-height: 3rem;
+ } 
+
+ .searcher-text {
+     width: 80%;
+     text-align: center;
+     border: none;
+     outline: none;
+     background: #F4F4F4;
+ }
+
+ .searcher-cancel {
+     position: absolute;
+     width: 10%;
+     height: 3rem;
+     line-height: 3rem;
+     color: #929292;
+     top: 1.2rem;
+     right: 1rem;
+ }
+.mv-hide{
+    margin-top:63px;
+}
+#mv-tittle{
+    text-align: start;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    height: 292px;
+    /*line-height: 292px;*/
+    width:688px;   /*自适应会调整*/
+}
+#mv-single{
+    border:none;
+    height: 100%;
+    width: 100%;
+    
+}
+@media screen and (max-width: 872px) {
+    .fkbx{
+        width: 498px;
+    }
+    #mv-tittle{
+        width: 516px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .fkbx{
+        width: 326px;
+    }
+    #mv-tittle{
+        width: 344px;
+    }
+
+}
+.categoriesbar{
+        height: 58px;
+        display: inline-block;
+    width: 100%;
+    }
+.categoriesblocks{
+        border-bottom: 1px solid #666;
+        width: 100%;
+    }
+    
+    
+    
+    </style> 
