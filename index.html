@@ -9,6 +9,8 @@
 <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
 
+<body onclick="getUrl(arguments[0])">
+    
 <crowd-form>
 <p><strong>Task: </strong>What is Covid-19?</p>
 
@@ -51,7 +53,7 @@
         </div>
     </div>
 </div>    
-       
+<!--路径展示框-->         
     
 <p>Generate an answer based on the search results</p>
 <crowd-text-area name="transcription" rows="4"></crowd-text-area>
@@ -65,7 +67,7 @@
 </full-instructions>
     
 </crowd-form>
-
+</body>
 <script>
   [
     button1,
@@ -78,5 +80,6 @@
     function enterkeyword(){
        document.querySelector('crowd-form').submit();          
     }
+    
     
 </script>
