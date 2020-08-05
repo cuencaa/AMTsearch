@@ -56,6 +56,20 @@
         }
     })
 
+    $(function(){
+        $('#resulturl').click(function(){
+            var resulturl=$('#resulturl').val();
+            var datas ={"clivkUrl":password};
+         console.log("datas"+datas.resulturl);
+       $.ajax({
+                url:'',
+                type:'post',
+                contentType: "application/json;charset=utf-8",
+                data:datas,
+             })
+
+        })
+    })
 
     //列表分页
     //perPage 每一页显示条数     current：当前第几页
