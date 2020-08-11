@@ -152,6 +152,7 @@ what are the best masks for preventing infection by Covid-19?
 What types of masks should or should not be used to prevent infection by Covid-19?
 </narrative>
 </topic>
+<!--
 <topic number="19">
 <query>what alcohol sanitizer kills coronavirus</query>
 <question>
@@ -169,7 +170,7 @@ are patients taking Angiotensin-converting enzyme inhibitors (ACE) at increased 
 <narrative>
 Looking for information on interactions between coronavirus and angiotensin converting enzyme 2 (ACE2) receptors, risk for patients taking these medications, and recommendations for these patients.
 </narrative>
-</topic>
+</topic>-->
 <!--<topic number="21">
 <query>coronavirus mortality</query>
 <question>
@@ -178,7 +179,7 @@ what are the mortality rates overall and in specific populations
 <narrative>
 Seeking information on COVID-19 fatality rates in different countries and in different population groups based on gender, blood types, or other factors
 </narrative>
-</topic>-->
+</topic>
 <topic number="22">
 <query>coronavirus heart impacts</query>
 <question>
@@ -187,7 +188,7 @@ are cardiac complications likely in patients with COVID-19?
 <narrative>
 Seeking information on the types, frequency and mechanisms of cardiac complications caused by coronavirus.
 </narrative>
-</topic>
+</topic>-->
 <topic number="23">
 <query>coronavirus hypertension</query>
 <question>
@@ -231,6 +232,7 @@ what is known about those infected with Covid-19 but are asymptomatic?
 Studies of people who are known to be infected with Covid-19 but show no symptoms?
 </narrative>
 </topic>
+<!--
 <topic number="28">
 <query>coronavirus hydroxychloroquine</query>
 <question>
@@ -255,7 +257,7 @@ Seeking information about protein-protein interactions for any of the SARS-CoV-2
 <narrative>
 seeking specific information on clinical outcomes in COVID-19 patients treated with remdesivir
 </narrative>
-</topic>
+</topic>-->
 <topic number="31">
 <query>difference between coronavirus and flu</query>
 <question>How does the coronavirus differ from seasonal flu?</question>
@@ -272,7 +274,7 @@ Does SARS-CoV-2 have any subtypes, and if so what are they?
 Papers that discuss subtypes of the virus, from named subtypes to speculative subtypes based on genomic or geographic clustering.
 </narrative>
 </topic>
-<topic number="33">
+<!--<topic number="33">
 <query>coronavirus vaccine candidates</query>
 <question>
 What vaccine candidates are being tested for Covid-19?
@@ -289,5 +291,152 @@ What are the longer-term complications of those who recover from COVID-19?
 <narrative>
 Seeking information on the health outcomes for those that recover from the virus. Excludes studies only focusing on adverse effects related to a particular COVID-19 drug.
 </narrative>
+</topic>-->
+<topic number="35">
+<query>coronavirus public datasets</query>
+<question>
+What new public datasets are available related to COVID-19?
+</question>
+<narrative>
+Seeking articles that specifically release new data related to SARS-CoV-2 or COVID-19, including genomic data, patient data, public health data, etc. Articles that reference previously existing datasets are not relevant.
+</narrative>
 </topic>
+    <!--
+<topic number="36">
+<query>SARS-CoV-2 spike structure</query>
+<question>
+What is the protein structure of the SARS-CoV-2 spike?
+</question>
+<narrative>
+Looking for studies of the structure of the spike protein on the virus using any methods, such as cryo-EM or crystallography
+</narrative>
+</topic>
+<topic number="37">
+<query>SARS-CoV-2 phylogenetic analysis</query>
+<question>
+What is the result of phylogenetic analysis of SARS-CoV-2 genome sequence?
+</question>
+<narrative>
+Looking for a range of studies which provide the results of phylogenetic network analysis on the SARS-CoV-2 genome
+</narrative>
+</topic>
+<topic number="38">
+<query>COVID inflammatory response</query>
+<question>
+What is the mechanism of inflammatory response and pathogenesis of COVID-19 cases?
+</question>
+<narrative>
+Looking for a range of studies which describes the inflammatory response cells and pathogenesis during the Coronavirus Disease 2019 (COVID-19) outbreak, including the mechanism of anti-inflammatory drugs, corticosteroids, and vitamin supplements
+</narrative>
+</topic>
+<topic number="39">
+<query>COVID-19 cytokine storm</query>
+<question>
+What is the mechanism of cytokine storm syndrome on the COVID-19?
+</question>
+<narrative>
+Looking for studies that describes mechanism of development of cytokine storm syndrome among COVID-19 cases and the range of drugs used for the therapy of cytokine storm
+</narrative>
+</topic>
+<topic number="40">
+<query>coronavirus mutations</query>
+<question>
+What are the observed mutations in the SARS-CoV-2 genome and how often do the mutations occur?
+</question>
+<narrative>
+Looking for studies that describes the emergence of genomic diversity of the coronavirus due to recurrent mutations which explore the potential genomic site of the mutation, mechanisms and its potential or observed clinical implications in the pathogenicity of the virus
+</narrative>
+</topic>-->
+<topic number="41">
+<query>COVID-19 in African-Americans</query>
+<question>
+What are the impacts of COVID-19 among African-Americans that differ from the rest of the U.S. population?
+</question>
+<narrative>
+Looking for studies that analyze burden of illness and death among the African-American/black racial/ethnic group. This includes potential reasons for transmission, morbidity, and mortality. This may include discussion of other minority groups, but all studies should contain specific information on the health disparities faced by African-Americans in this pandemic.
+</narrative>
+</topic>
+<topic number="42">
+<query>Vitamin D and COVID-19</query>
+<question>
+Does Vitamin D impact COVID-19 prevention and treatment?
+</question>
+<narrative>
+This includes studies describing possible role of Vitamin D in prevention of COVID-19, suppression of cytokine storm, clinical outcomes, and associations between Vitamin D status and COVID-19 mortality.
+</narrative>
+</topic>
+<topic number="43">
+<query>violence during pandemic</query>
+<question>
+How has the COVID-19 pandemic impacted violence in society, including violent crimes?
+</question>
+<narrative>
+Looking for analyses and data on how the pandemic is impacting rates of violence, including domestic/family violence related to quarantine.
+</narrative>
+</topic>
+<topic number="44">
+<query>impact of masks on coronavirus transmission</query>
+<question>
+How much impact do masks have on preventing the spread of the COVID-19?
+</question>
+<narrative>
+Looking for studies of how masks slow SARS-CoV-2 transmission, including impact on R0. Studies can include both lab and population studies.
+</narrative>
+</topic>
+<topic number="45">
+<query>coronavirus mental health impact</query>
+<question>
+How has the COVID-19 pandemic impacted mental health?
+</question>
+<narrative>
+Includes increasing/decreasing rates of depression, anxiety, panic disorder, and other psychiatric and mental health conditions.
+</narrative>
+</topic>
+<!--
+<topic number="46">
+<query>dexamethasone coronavirus</query>
+<question>
+what evidence is there for dexamethasone as a treatment for COVID-19?
+</question>
+<narrative>
+Looking for studies on the impact of dexamethasone treatment in COVID-19 patients, including health benefits as well as adverse effects. This also includes specific populations that are benefitted/harmed by dexamethasone.
+</narrative>
+</topic>-->
+<topic number="47">
+<query>COVID-19 outcomes in children</query>
+<question>
+what are the health outcomes for children who contract COVID-19?
+</question>
+<narrative>
+Looking for studies on health outcomes in children related to COVID-19. This includes studies attempting to explain the underlying biological mechanisms for why children differ from adults in response to infection.
+</narrative>
+</topic>
+<topic number="48">
+<query>school reopening coronavirus</query>
+<question>
+what are the benefits and risks of re-opening schools in the midst of the COVID-19 pandemic?
+</question>
+<narrative>
+With the possibility of schools re-opening while the COVID-19 pandemic is still ongoing, this topic is looking for evidence or projections on what the potential implications of this are in terms of COVID-19 cases, hospitalizations, or deaths, as well as other benefits or harms to re-opening schools. This includes both the impact on students, teachers, families, and the wider community.
+</narrative>
+</topic>
+<topic number="49">
+<query>post-infection COVID-19 immunity</query>
+<question>
+do individuals who recover from COVID-19 show sufficient immune response, including antibody levels and T-cell mediated immunity, to prevent re-infection?
+</question>
+<narrative>
+There is concern about re-infection for COVID-19, so this topic is looking for studies suggesting post-infection immunity, including post-infection antibody levels (over time) and evidence for individuals who have been infected more than once.
+</narrative>
+</topic>
+    <!--
+<topic number="50">
+<query>mRNA vaccine coronavirus</query>
+<question>
+what is known about an mRNA vaccine for the SARS-CoV-2 virus?
+</question>
+<narrative>
+Looking for studies specifically focusing on mRNA vaccines for COVID-19, including how mRNA vaccines work, why they are promising, and any results from actual clinical studies.
+</narrative>
+</topic>-->
 </topics>
