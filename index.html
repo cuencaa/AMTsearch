@@ -8,9 +8,10 @@
 <script src="https://assets.crowd.aws/crowd-html-elements.js"></script>
 <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/cookie.js"></script>
 
-<body onclick="getUrl(arguments[0])">
-    
+<body onload="loadPage()">
+
 <crowd-form>
 <p><strong>Task: </strong>What is Covid-19?</p>
 
@@ -33,6 +34,7 @@
             </form>
         </div>
     </div>
+
 <!--结果列表-->       
     <div class="container">
         <div class="searchList">
@@ -53,7 +55,7 @@
         </div>
     </div>
 </div>    
-<!--路径展示框-->         
+       
     
 <p>Generate an answer based on the search results</p>
 <crowd-text-area name="transcription" rows="4"></crowd-text-area>
@@ -67,7 +69,9 @@
 </full-instructions>
     
 </crowd-form>
+
 </body>
+
 <script>
   [
     button1,
@@ -81,5 +85,12 @@
        document.querySelector('crowd-form').submit();          
     }
     
+        function loadPage(){
+      if (getCookie('user')=='') { //3、使用之前封装好的cookie操作函数，这样取cookie比较方便
+        window.open("preQues.html",'','height=300,width=200,top=100,left=100') //4、window.open()方法
+        setCookie('user','preQues.html',7)
+      }
+    }
+
     
 </script>
