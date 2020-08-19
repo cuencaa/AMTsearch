@@ -405,7 +405,8 @@ Looking for studies on the impact of dexamethasone treatment in COVID-19 patient
 <topic number="47">
 <query>COVID-19 outcomes in children</query>
 <question>
-what are the health outcomes for children who contract COVID-19?
+What are the outcomes for children who contract COVID-19?
+<!--what are the health outcomes for children who contract COVID-19?-->
 </question>
 <narrative>
 Looking for studies on health outcomes in children related to COVID-19. This includes studies attempting to explain the underlying biological mechanisms for why children differ from adults in response to infection.
@@ -414,12 +415,14 @@ Looking for studies on health outcomes in children related to COVID-19. This inc
 <topic number="48">
 <query>school reopening coronavirus</query>
 <question>
-what are the benefits and risks of re-opening schools in the midst of the COVID-19 pandemic?
+What about reopening schools in the midst of the COVID-19 pandemic?
+<!--what are the benefits and risks of re-opening schools in the midst of the COVID-19 pandemic?-->
 </question>
 <narrative>
 With the possibility of schools re-opening while the COVID-19 pandemic is still ongoing, this topic is looking for evidence or projections on what the potential implications of this are in terms of COVID-19 cases, hospitalizations, or deaths, as well as other benefits or harms to re-opening schools. This includes both the impact on students, teachers, families, and the wider community.
 </narrative>
 </topic>
+      <!--
 <topic number="49">
 <query>post-infection COVID-19 immunity</query>
 <question>
@@ -429,7 +432,6 @@ do individuals who recover from COVID-19 show sufficient immune response, includ
 There is concern about re-infection for COVID-19, so this topic is looking for studies suggesting post-infection immunity, including post-infection antibody levels (over time) and evidence for individuals who have been infected more than once.
 </narrative>
 </topic>
-    <!--
 <topic number="50">
 <query>mRNA vaccine coronavirus</query>
 <question>
